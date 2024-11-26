@@ -39,19 +39,19 @@ function Cards({ cards }) {
                       buttonText === "Get your estimate" ||
                       buttonText === "Find your deal"
                         ? card.cl === "white"
-                          ? "#0171E2" // Blue background for white button text
-                          : "#0171E2" // Blue background for non-white button text
-                        : "transparent", // Transparent background for non-primary buttons
+                          ? "#0171E2" 
+                          : "#0171E2" 
+                        : "transparent", 
                     color:
                       buttonText === "Learn more" ||
                       buttonText === "Get your estimate" ||
                       buttonText === "Find your deal"
                         ? card.cl === "white"
-                          ? "white" // White text color for white button background
-                          : "white" // White text color for blue background
+                          ? "white" 
+                          : "white" 
                         : card.cl === "white"
-                        ? "white" // Text color for non-primary buttons
-                        : "#0171E2", // Default color (blue for non-primary)
+                        ? "white" 
+                        : "#0171E2",
                     border:
                       buttonText === "Learn more" ||
                       buttonText === "Get your estimate" ||
